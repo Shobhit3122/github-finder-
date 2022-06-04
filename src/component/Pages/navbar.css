@@ -1,0 +1,166 @@
+*{
+    padding: 0;
+    margin: 0 ;
+    box-sizing: border-box;
+}
+
+.section{
+    width: 100%;
+    display: flex;
+}
+
+.art1{
+    height: 900vh;
+    width: 14%;
+    background-color: #C4FCEF;
+    margin-top: 10px;
+    margin-left: 0px;
+    box-shadow: 5px 5px 5px 5px grey;
+    /* display: flex; */
+}
+
+
+.top{
+    height: 10vh;
+    width: 100%;
+    background-color: #D0E9F4;
+    box-shadow:2px 2px 2px 2px grey;
+    /* display: flex; */
+}
+
+
+.left h1{
+    color:#C34A36;
+    /* text-align: center; */
+    /* display: flex;
+    align-items: center;
+    justify-content: center; */
+    position: absolute;
+    top: 13px;
+    left: 25px;
+    
+}
+
+
+.side h4{
+    color: rgba(0, 0, 0, 0.781);
+    font-family: sans-serif;
+    padding: 7px;
+    margin: 3px;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.589);
+}
+
+.side li{
+    padding: 10px;
+    font-family: sans-serif;
+    border-bottom:1px solid crimson;
+    margin-top: 7px;
+}
+
+
+.middle{
+display: flex;
+   align-items: center;
+   justify-content: center;
+     position: relative;
+    top: 20px;
+    /* left: 25px; */
+   
+}
+
+
+.middle input{
+    height: 5vh;
+    width: 20%;
+}
+
+.middle input placeholder{
+    margin-right: 30px;
+}
+.middle  label {
+   height: 5vh;
+   background-color: #C34A36;
+   width: 6%;
+   color: white;
+   text-align: center;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   font-family: sans-serif;    
+}
+
+
+.art2{
+    background-color: rgba(173, 216, 230, 0.545);
+    height: 900vh;
+    width: 87%;
+    margin-top: 10px;
+     margin-left: 20px;
+    box-shadow: 5px 5px 5px 5px grey;
+    position: absolute;
+    top: 60px;
+    left: 170px;
+
+
+}
+
+
+.droppy{
+    /* height: 300px; */
+    width: 248px;
+    background-color:rgba(128, 128, 128, 0.532);
+    position: relative;
+    left: 534px;
+    bottom: 10px;
+    border-bottom:4px solid greenyellow;
+    border-left: 1px solid white;
+    border-right: 1px solid white;
+    border-radius: 5px;
+
+}
+
+
+.droppy ul{
+  list-style-type: none;
+  border-top: 1px solid grey;
+  padding: 5px;
+  margin: 0px;
+  
+  
+
+  
+}
+
+.droppy span{
+    margin-left: 10px;
+}
+
+
+.droppy button{
+    float:right;
+    background-color: #C34A36;
+    border: none;
+    color: white;
+    width: 50px;
+    height: 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+
+.droppy ul img{
+    height: 27px;
+    width: 27px;
+    border-radius: 50%;
+    position: relative;
+    top: 4px;
+    border: 1px solid grey;
+    box-shadow: 1px 1px  1px 1px  black
+}
+
+
+.droppy a{
+    text-decoration: none;
+    color: white;
+
+}
